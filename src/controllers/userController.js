@@ -1,9 +1,9 @@
 /** 
  * knex module to connect to mysql
  */
-import { saltHashPassword } from '../salts/salt';
+import { saltHashPassword } from '../salts';
 
-const knex = require('knex')(require('../knexfile'))
+const knex = require('knex')(require('../../knexfile'))
 
 /**
  * @export
